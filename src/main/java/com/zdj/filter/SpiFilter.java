@@ -6,6 +6,8 @@ import java.io.IOException;
 /**
  * @author zhangdj
  * @date 2019/12/3
+ *
+ * 使用spi机制向容器中添加过滤器
  */
 public class SpiFilter implements Filter {
     public void init(FilterConfig filterConfig) throws ServletException {

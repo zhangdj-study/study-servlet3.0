@@ -7,6 +7,8 @@ import java.io.IOException;
 /**
  * @author zhangdj
  * @date 2019/12/2
+ *
+ * @WebFilter 注解 向容器中添加一个过滤器
  */
 @WebFilter(value = "/*")
 public class MyFilter implements Filter {
@@ -16,6 +18,7 @@ public class MyFilter implements Filter {
 
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         System.out.println("MyFilter doFilter");
+        //放行
         chain.doFilter(request,response);
     }
 
