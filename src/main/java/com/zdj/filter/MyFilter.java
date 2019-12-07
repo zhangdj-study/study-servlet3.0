@@ -13,6 +13,7 @@ import java.io.IOException;
 @WebFilter(value = "/*")
 public class MyFilter implements Filter {
     public void init(FilterConfig filterConfig) throws ServletException {
+        System.out.println("git 合并分支测试");
         System.out.println("MyFilter init");
     }
 
