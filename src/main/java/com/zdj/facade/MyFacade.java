@@ -5,4 +5,5 @@ package com.zdj.facade;
  * @date 2019/12/3
  */
 public interface MyFacade {
+    void test();
 }
