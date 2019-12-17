@@ -9,4 +9,8 @@ public class MyFacadeImpl1 implements MyFacade{
     void test(){
 
     }
+
+    void rebaseTest(){
+
+    }
 }
